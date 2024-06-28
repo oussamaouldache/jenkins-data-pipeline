@@ -32,7 +32,7 @@ pipeline {
  
 			 // bat '*pip install pandas*' 
  
-                          //bat 'python data_analysis.py'  
+                          bat 'python data_analysis.py'  
 
                     }
                 }
