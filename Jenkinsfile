@@ -19,20 +19,20 @@ pipeline {
                         //sh 'javac HelloWorld.java'
                         //sh 'java HelloWorld'
                         //sh 'python3 hello.py'
-			  sh 'pip install manager' 
- 			  sh '*pip install pandas*' 
-                          sh 'python data_analysis.py'
+			//  sh 'pip install manager' 
+ 			// sh '*pip install pandas*' 
+                        //  sh 'python data_analysis.py'
                     } else {
                         bat 'echo "Running on Windows"'
                         //bat 'javac HelloWorld.java'
                         //bat 'java HelloWorld'
                         //bat 'python hello.py'
 
-			  bat 'pip install manager' 
+			 // bat 'pip install manager' 
  
-			  bat '*pip install pandas*' 
+			 // bat '*pip install pandas*' 
  
-                          bat 'python data_analysis.py'  
+                          //bat 'python data_analysis.py'  
 
                     }
                 }
