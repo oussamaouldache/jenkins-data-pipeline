@@ -31,6 +31,7 @@ pipeline {
 			 // bat 'pip install manager' 
  
 			 // bat '*pip install pandas*' 
+			  bat 'pip install -r requirements.txt'
  
                           bat 'python data_analysis.py'  
 
