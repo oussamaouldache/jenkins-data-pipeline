@@ -16,9 +16,12 @@ pipeline {
                 script {
                     if (isUnix()) {
                         sh 'echo "Running on Unix"'
-                        sh 'javac HelloWorld.java'
-                        sh 'java HelloWorld'
-                        sh 'python3 hello.py'
+                        //sh 'javac HelloWorld.java'
+                        //sh 'java HelloWorld'
+                        //sh 'python3 hello.py'
+			  sh 'pip install manager' 
+ 			  sh '*pip install pandas*' 
+                          sh 'python data_analysis.py'
                     } else {
                         bat 'echo "Running on Windows"'
                         //bat 'javac HelloWorld.java'
