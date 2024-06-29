@@ -28,8 +28,8 @@ pipeline {
                         //bat 'java HelloWorld'
                         //bat 'python hello.py'
 			// bat 'pip install manager' 
- 			// bat '*pip install pandas*' 
-			//  bat 'cd '
+ 			   bat 'pip install pandas' 
+			// bat 'cd '
 			// bat 'pip install -r requirements.txt'
  
                            bat 'python data_analysis.py'  
