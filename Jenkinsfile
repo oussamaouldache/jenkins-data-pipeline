@@ -26,10 +26,10 @@ pipeline {
                         bat 'echo "Running on Windows"'
                         //bat 'javac HelloWorld.java'
                         //bat 'java HelloWorld'
-                        //bat 'python hello.py'
+                          bat 'cd ./C:/Windows/System32'
 			  bat 'pip install virtualenv'
 			  bat '' 
- 			  bat 'pip install pandas' 
+ 			// bat 'pip install pandas' 
 			//bat 'cd '
 			//bat 'pip install -r requirements.txt'
  
