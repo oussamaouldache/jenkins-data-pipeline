@@ -27,14 +27,16 @@ pipeline {
                         //bat 'javac HelloWorld.java'
                         //bat 'java HelloWorld'
                           bat 'cd C:/Python30/jenkins-data-pipeline'
-			    
-			  bat 'pip install virtualenv'
-			 // bat '' 
- 			// bat 'pip install pandas' 
-			//bat 'cd '
-			//bat 'pip install -r requirements.txt'
+			  bat 'pip install virtualenv' 
+			  bat 'cd C:/Windows/System32'
+			  bat 'py -m virtualenv madiha_env
+			  bat 'C:/Windows/System32/madiha_env/Scripts'
+			  bat 'activate.bat'
+			  bat 'cd C:/Windows/System32' 
+			  bat ' pip install pandas'
+			 //bat 'pip install -r requirements.txt'
  
-                           bat 'python data_analysis.py'  
+                          bat 'python data_analysis.py'  
 
                     }
                 }
