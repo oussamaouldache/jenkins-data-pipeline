@@ -29,7 +29,7 @@ pipeline {
                           bat 'cd C:/Python30/jenkins-data-pipeline'
 			  bat 'pip install virtualenv' 
 			  bat 'cd C:/Windows/System32'
-			  bat 'py -m virtualenv madiha_env
+			  bat 'py -m virtualenv madiha_env'
 			  bat 'C:/Windows/System32/madiha_env/Scripts'
 			  bat 'activate.bat'
 			  bat 'cd C:/Windows/System32' 
