@@ -16,27 +16,12 @@ pipeline {
                 script {
                     if (isUnix()) {
                         sh 'echo "Running on Unix"'
-                        //sh 'javac HelloWorld.java'
-                        //sh 'java HelloWorld'
-                        //sh 'python3 hello.py'
-			//sh 'pip install manager' 
- 			//sh '*pip install pandas*' 
-                        //sh 'python data_analysis.py'
+                       	//sh 'pip install manager' 
+ 			//sh 'python data_analysis.py'
                     } else {
                         bat 'echo "Running on Windows"'
-                        //bat 'javac HelloWorld.java'
-                        //bat 'java HelloWorld'
-                        //  bat 'cd C:/Python30/jenkins-data-pipeline'
-			//  bat 'pip install virtualenv' 
-			//  bat 'cd C:/Windows/System32'
-			// bat 'py -m virtualenv madiha_env'
-			//  bat 'C:/Windows/System32/madiha_env/Scripts'
-			// bat 'activate.bat'
-			//  bat 'cd C:/Windows/System32' 
-			 // bat 'pip install pandas'
-			 
-			    bat 'pip install -r requirements.txt'
-                            bat 'python data_analysis.py'  
+                        bat 'pip install -r requirements.txt'
+                        bat 'python data_analysis.py'  
 
                     }
                 }
