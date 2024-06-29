@@ -11,7 +11,7 @@ def analyze_sales_data(file_path):
     min_sales = data['Sales'].min()
 
     # Afficher les statistiques
-    print(f"Total des ventes: {total_sales}")
+    print( {total_sales}")
     print(f"Vente moyenne: {average_sales}")
     print(f"Ventes maximales: {max_sales}")
     print(f"Ventes minimales: {min_sales}")
