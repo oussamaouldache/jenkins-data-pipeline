@@ -33,7 +33,7 @@ pipeline {
 			  bat 'C:/Windows/System32/madiha_env/Scripts'
 			  bat 'activate.bat'
 			  bat 'cd C:/Windows/System32' 
-			  bat ' pip install pandas'
+			  bat 'pip install pandas'
 			 //bat 'pip install -r requirements.txt'
  
                           bat 'python data_analysis.py'  
