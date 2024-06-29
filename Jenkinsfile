@@ -22,7 +22,7 @@ pipeline {
                         
                         bat 'echo "Running on Windows"'
                         bat 'virtualenv temp'
-                        bat '.\temp\Scripts\acivate.bat'
+                        bat './temp/Scripts/acivate.bat'
                         bat 'python'
                         bat 'pip install -r requirements.txt'
                         bat 'python data_analysis.py'  
