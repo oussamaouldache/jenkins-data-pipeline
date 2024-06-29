@@ -26,7 +26,8 @@ pipeline {
                         bat 'echo "Running on Windows"'
                         //bat 'javac HelloWorld.java'
                         //bat 'java HelloWorld'
-                          bat 'cd C:/Windows/System32'
+                          bat 'cd C:/Python30/jenkins-data-pipeline'
+			    
 			  bat 'pip install virtualenv'
 			 // bat '' 
  			// bat 'pip install pandas' 
