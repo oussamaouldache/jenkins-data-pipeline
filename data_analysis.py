@@ -12,9 +12,9 @@ def analyze_sales_data(file_path):
 
     # Afficher les statistiques
     print( {total_sales})
-    print(f"Vente moyenne: {average_sales}")
-    print(f"Ventes maximales: {max_sales}")
-    print(f"Ventes minimales: {min_sales}")
+    print( {average_sales})
+    print( {max_sales})
+    print({min_sales})
 
 if __name__ == "__main__":
     file_path = 'sales_data.csv'  # Chemin vers le fichier CSV
