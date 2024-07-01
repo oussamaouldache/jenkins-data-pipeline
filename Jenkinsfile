@@ -16,8 +16,11 @@ pipeline {
                 script {
                     if (isUnix()) {
                         sh 'echo "Running on Unix"'
-                       	//sh 'pip install manager' 
- 			//sh 'python data_analysis.py'
+                        sh 'pip install virtualenv' 
+                        sh 'py -m virtualenv madiha_env'
+                        sh 'activate.bat'
+                        sh 'python3 pip install pandas'
+                        sh 'python data_analysis.py'
                     } else {
                         
                         bat 'echo "Running on Windows"'
